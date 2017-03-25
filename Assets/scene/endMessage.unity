@@ -420,6 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf01734f2f6445893b53914137d255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectWithText: {fileID: 0}
   lines: []
 --- !u!114 &2039530682
 MonoBehaviour:
@@ -435,7 +436,9 @@ MonoBehaviour:
   end4ai1:
   - End
   - This is 4ai1
-  end4ai2: []
+  end4ai2:
+  - End
+  - This is 4ai2
   end4aii1: []
   end4aii2: []
   end4bi1: []

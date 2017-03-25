@@ -859,7 +859,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1012543291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.93, y: -1.89, z: 0}
+  m_LocalPosition: {x: -4.93, y: -1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1326,7 +1326,8 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[0]
-      value: 
+      value: The investors are excited for you to continue growing the company! They
+        are delighted with your progress.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
