@@ -29,7 +29,7 @@ public class askQuestion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown("space")) {
+		if (Input.GetMouseButtonDown(0)) {
 			//if space is pressed next line is printed
 			if (currentLine < totalLines) {
 				GetComponent<Text>().text = activeLines[currentLine];

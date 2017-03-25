@@ -18,7 +18,7 @@ public class switchText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown("space")) {
+		if (Input.GetMouseButtonDown(0)) {
 
 			if (currentLine < totalLines) {
 				GetComponent<Text>().text = lines[currentLine];
