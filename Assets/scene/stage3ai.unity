@@ -185,6 +185,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1270894880}
     m_Modifications:
+    - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -282,13 +287,14 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: "Glad that there\u2019s space in the office to hang up my family photo."
+      value: "I\u2019m very glad that both Ricky and Daisy are both employed and doing
+        very well at work."
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: I can hardly believe Daisy will start school this year. Of course Jasmine
-        still needs to look after little Ricky.
+      value: "I\u2019m looking forward to flying with Jasmine for a wonderful holiday
+        for Christmas. We are considering retiring there."
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -528,19 +534,18 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: 'Date: August 1990'
+      value: 'Long Term health problems: from Mercur: February 2015'
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: Metal Mining Corp has just got a new CEO. He is experienced in infrastructure
-        development who will now lead the company into its growth stage.
+      value: Long term mercury poisoning is affecting some inhabitants in the town.
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[2]
-      value: "Investors are hoping to see the company\u2019s expansion and turn profitable
-        in the upcoming years."
+      value: Symptoms include insomnia, headaches, abnormal sensations, muscle twitching,
+        and tremors.
       objectReference: {fileID: 0}
     - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -680,7 +685,7 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
@@ -779,26 +784,22 @@ Prefab:
     - target: {fileID: 114235733773969738, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: m_Text
-      value: 'Agree to build new mining facility in X
-
-'
+      value: Agree to build new mining facility
       objectReference: {fileID: 0}
     - target: {fileID: 114215600580075772, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: m_Text
-      value: Do not proceed
+      value: Research into not damaging the river
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[0]
-      value: Mr CEO! We have struck a deal with our partner to build a mining facility
-        in a new location.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[1]
-      value: The increase in revenue is projected to double every year, with a high
-        chance of being profitable a few years later.
+      value: Sir, what do you think we should do?
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
