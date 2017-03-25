@@ -11,3 +11,11 @@ EditorBuildSettings:
     path: Assets/scene/stage2a.unity
   - enabled: 1
     path: Assets/scene/stage2b.unity
+  - enabled: 1
+    path: Assets/scene/stage3ai.unity
+  - enabled: 1
+    path: Assets/scene/stage3aii.unity
+  - enabled: 1
+    path: Assets/scene/stage3bi.unity
+  - enabled: 1
+    path: Assets/scene/stage3bii.unity

@@ -803,16 +803,6 @@ Prefab:
       propertyPath: m_FontData.m_LineSpacing
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
-        type: 2}
-      propertyPath: topChoiceScene
-      value: stage3bi
-      objectReference: {fileID: 0}
-    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
-        type: 2}
-      propertyPath: bottomChoiceScene
-      value: stage3bii
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
   m_IsPrefabParent: 0
