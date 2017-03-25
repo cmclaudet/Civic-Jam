@@ -355,6 +355,8 @@ MonoBehaviour:
   - The environment will suffer
   - Your family will be happy
   choiceText: {fileID: 1199421537025952}
+  topChoiceScene: stage2a
+  bottomChoiceScene: stage2b
 --- !u!114 &114767687329886246
 MonoBehaviour:
   m_ObjectHideFlags: 1

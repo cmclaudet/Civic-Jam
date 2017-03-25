@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class askQuestion : MonoBehaviour {
-
 	public string[] startLines;
 	public string[] responses1;
 	public string[] responses2;
@@ -16,7 +16,8 @@ public class askQuestion : MonoBehaviour {
 	public bool answerGiven{get;set;}
 	//if answer is true player has chosen top dialogue option
 	public bool answer{get;set;}
-
+	public string topChoiceScene;
+	public string bottomChoiceScene;
 	// Use this for initialization
 	void Start () {
 		currentLine = 1;
@@ -39,6 +40,7 @@ public class askQuestion : MonoBehaviour {
 					choiceText.gameObject.SetActive(true);
 				//if question has been asked dialogue must be done
 				} else {
+					loadNextScene();
 					gameObject.SetActive(false);
 				}
 			}
@@ -63,5 +65,13 @@ public class askQuestion : MonoBehaviour {
 			answerGiven = false;
 		}
 		
+	}
+
+	void loadNextScene() {
+		if (answer) {
+			SceneManager.LoadScene(topChoiceScene);
+		} else {
+			SceneManager.LoadScene(bottomChoiceScene);
+		}
 	}
 }
