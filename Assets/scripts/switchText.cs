@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class switchText : MonoBehaviour {
-
+	public GameObject objectWithText;
 	public string[] lines;
 	private int currentLine;
 	private int totalLines;
@@ -18,15 +18,22 @@ public class switchText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown("space")) {
+		if (Input.GetMouseButtonDown(0)) {
 
 			if (currentLine < totalLines) {
 				GetComponent<Text>().text = lines[currentLine];
 				currentLine += 1;
 			} else {
 				currentLine = 1;
+				inactivateObject();
 				gameObject.SetActive(false);
 			}
+		}
+	}
+
+	void inactivateObject() {
+		if (objectWithText != null) {
+			objectWithText.gameObject.SetActive(false);
 		}
 	}
 }

@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/scene/stage3bi.unity
   - enabled: 1
     path: Assets/scene/stage3bii.unity
+  - enabled: 1
+    path: Assets/scene/endMessage.unity
