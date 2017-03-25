@@ -282,19 +282,19 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: "Glad that there\u2019s space in the office to hang up my family photo."
+      value: Daisy is on the job hunt, I should spend more time helping her get contacts.
+        Ricky is still studying.
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: I can hardly believe Daisy will start school this year. Of course Jasmine
-        still needs to look after little Ricky.
+      value: "I am hoping that I\u2019ll be able to pay for the rest of his schooling
+        by selling our house. "
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[2]
-      value: "Maybe I\u2019ll be able to get some childcare so she has more time to
-        find work."
+      value: "Oh Jasmine. I\u2019m sorry."
       objectReference: {fileID: 0}
     - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -388,6 +388,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1270894880}
     m_Modifications:
+    - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -485,19 +490,19 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: 'Date: August 1990'
+      value: 'Metal Mining Corp closes down Date: December 2000'
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: Metal Mining Corp has just got a new CEO. He is experienced in infrastructure
-        development who will now lead the company into its growth stage.
+      value: CEO David Stones has continued to falter in his leadership to get Metal
+        Mining Corp back on top.
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[2]
-      value: "Investors are hoping to see the company\u2019s expansion and turn profitable
-        in the upcoming years."
+      value: Analysts predict that the company will either shut down or have a change
+        in CEO.
       objectReference: {fileID: 0}
     - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -680,7 +685,17 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.size
-      value: 4
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
@@ -791,14 +806,13 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[0]
-      value: Mr CEO! We have struck a deal with our partner to build a mining facility
-        in a new location.
+      value: Sir, the board of directors have advised that if you must take the opportunity
+        to further expand our mining operations. Otherwise you must step down.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[1]
-      value: The increase in revenue is projected to double every year, with a high
-        chance of being profitable a few years later.
+      value: Please let us know what you plan.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
@@ -854,7 +868,37 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: bottomChoiceScene
-      value: endMessage
+      value: David Stones resigns, sells his house and retires.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[1]
+      value: The environment is healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[2]
+      value: Your family will suffer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[1]
+      value: The environment will suffer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[2]
+      value: Your family will be happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[0]
+      value: 'A new mining facility will be built '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[0]
+      value: You resigned
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
