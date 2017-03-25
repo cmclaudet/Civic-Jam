@@ -185,6 +185,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1270894880}
     m_Modifications:
+    - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -282,13 +287,13 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: "Glad that there\u2019s space in the office to hang up my family photo."
+      value: "I haven\u2019t been able to send Daisy or Ricky to a good school. I\u2019m
+        not sure how I will be able to afford university."
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: I can hardly believe Daisy will start school this year. Of course Jasmine
-        still needs to look after little Ricky.
+      value: "I don\u2019t want to worry Jasmine about the mortgage either."
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -388,6 +393,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1270894880}
     m_Modifications:
+    - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -485,13 +495,13 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: 'Date: August 1990'
+      value: 'Metal Mining Corp profits decline: December 2000'
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[1]
-      value: Metal Mining Corp has just got a new CEO. He is experienced in infrastructure
-        development who will now lead the company into its growth stage.
+      value: CEO David Stones has struggled to turn profits for Metal Mining Corp.
+        There are growing concerns that this will impact the economy in the area.
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -637,7 +647,7 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
@@ -736,26 +746,25 @@ Prefab:
     - target: {fileID: 114235733773969738, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: m_Text
-      value: 'Agree to build new mining facility in X
+      value: 'Agree to build new mining facility
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 114215600580075772, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: m_Text
-      value: Do not proceed
+      value: Research into new tools
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[0]
-      value: Mr CEO! We have struck a deal with our partner to build a mining facility
-        in a new location.
+      value: Sir, the investors are extremely concerned that the company has not become
+        profitable after all these years.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: startLines.Array.data[1]
-      value: The increase in revenue is projected to double every year, with a high
-        chance of being profitable a few years later.
+      value: Their advice is to expand to new regions so we can mine more.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
