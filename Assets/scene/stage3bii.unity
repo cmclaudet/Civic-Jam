@@ -1430,7 +1430,7 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: bottomChoiceScene
-      value: David Stones resigns, sells his house and retires.
+      value: endMessage
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
