@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class switchText : MonoBehaviour {
+	public GameObject sound;
 	public GameObject objectWithText;
 	public string[] lines;
 	private int currentLine;
@@ -14,6 +15,7 @@ public class switchText : MonoBehaviour {
 		currentLine = 1;
 		totalLines = lines.Length;
 		GetComponent<Text>().text = lines[currentLine - 1];
+		playSound();
 	}
 	
 	// Update is called once per frame
@@ -34,6 +36,13 @@ public class switchText : MonoBehaviour {
 	void inactivateObject() {
 		if (objectWithText != null) {
 			objectWithText.gameObject.SetActive(false);
+		}
+	}
+
+	void playSound() {
+		if (sound != null) {
+			AudioSource[] sounds = sound.GetComponentsInChildren<AudioSource>();
+			sounds[Random.Range(0,sounds.Length)].Play();
 		}
 	}
 }
