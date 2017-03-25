@@ -202,11 +202,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 151435234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -319, y: -199.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1270894880}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &151435236
 MonoBehaviour:
@@ -387,6 +387,30 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_LineSpacing
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631663737238610, guid: c5a33f0d8094b4cd3a7570308dc2703e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: objectWithText
+      value: 
+      objectReference: {fileID: 151435234}
+    - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484583262068734, guid: c5a33f0d8094b4cd3a7570308dc2703e,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5a33f0d8094b4cd3a7570308dc2703e, type: 2}
@@ -722,6 +746,10 @@ Prefab:
       propertyPath: m_FontData.m_LineSpacing
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1631663737238610, guid: c5a33f0d8094b4cd3a7570308dc2703e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5a33f0d8094b4cd3a7570308dc2703e, type: 2}
   m_IsPrefabParent: 0
@@ -817,7 +845,6 @@ RectTransform:
   - {fileID: 661485567}
   - {fileID: 242375749}
   - {fileID: 2057188522}
-  - {fileID: 151435235}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1120,6 +1147,10 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_LineSpacing
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631663737238610, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
