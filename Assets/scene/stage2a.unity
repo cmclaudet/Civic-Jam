@@ -1435,6 +1435,26 @@ Prefab:
       propertyPath: responses2.Array.data[0]
       value: You chose to research mercury
       objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 325
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
   m_IsPrefabParent: 0

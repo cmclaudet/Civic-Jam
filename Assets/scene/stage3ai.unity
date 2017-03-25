@@ -605,7 +605,7 @@ Prefab:
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
       propertyPath: lines.Array.data[0]
-      value: 'Long Term health problems: from Mercur: February 2015'
+      value: 'Health problems suspected from Mercury: February 2015'
       objectReference: {fileID: 0}
     - target: {fileID: 114202364361657420, guid: c5a33f0d8094b4cd3a7570308dc2703e,
         type: 2}
@@ -1249,6 +1249,16 @@ Prefab:
       propertyPath: startLines.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224068068386691756, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -1413,7 +1423,8 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: topChoiceScene
-      value: endMessage
+      value: You build a profitable business and retire happily with your wife. But
+        as a consequence people suffer from mercury poisoning.
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
@@ -1438,6 +1449,46 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[1]
+      value: The environment will suffer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[2]
+      value: Your family will be happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[1]
+      value: The environment is healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[2]
+      value: Your family will suffer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses1.Array.data[0]
+      value: You chose to build a mining facility
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: responses2.Array.data[0]
+      value: You chose to research mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 288
+      objectReference: {fileID: 0}
+    - target: {fileID: 224238577686001648, guid: a061dcf42ba8047e497cd6e530f757dd,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 47
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a061dcf42ba8047e497cd6e530f757dd, type: 2}
