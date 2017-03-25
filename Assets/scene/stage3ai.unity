@@ -1423,8 +1423,7 @@ Prefab:
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
       propertyPath: topChoiceScene
-      value: You build a profitable business and retire happily with your wife. But
-        as a consequence people suffer from mercury poisoning.
+      value: endMessage
       objectReference: {fileID: 0}
     - target: {fileID: 114492745386707496, guid: a061dcf42ba8047e497cd6e530f757dd,
         type: 2}
